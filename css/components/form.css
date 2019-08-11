@@ -1,0 +1,55 @@
+.input-my,
+.select-my,
+.textarea-my {
+  max-width: 100%;
+  width: 100%;
+  border: 0 none;
+  margin: 0;
+  border-radius: 0;
+}
+
+.input-my:focus,
+.select-my:focus,
+.textarea-my:focus {
+  outline: none;
+  background-color: #fff;
+  color: #666;
+  border-color: #fed136;
+}
+
+.input-my:disabled,
+.select-my:disabled,
+.textarea-my:disabled {
+  background-color: #f8f8f8;
+  color: #999;
+  border-color: #e5e5e5;
+}
+/*
+ * Placeholder
+ */
+
+.input-my::placeholder, .textarea-my::placeholder {
+  text-transform: uppercase;
+  color: #bbbbbb;
+  font-family: "Arial-BoldMT";
+  font-size: 14px;
+  letter-spacing: -0.35px;
+}
+
+ /*
+ * Error
+ */
+ .form-danger,
+ .form-danger:focus {
+   color: #f0506e;
+   border-color: #f0506e;
+ }
+ /*
+  * Success
+  */
+ .form-success,
+ .form-success:focus {
+   color: #32d296;
+   border-color: #32d296;
+ }
+ 

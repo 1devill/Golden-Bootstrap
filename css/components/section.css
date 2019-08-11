@@ -1,0 +1,178 @@
+.section {
+  position: relative;
+  padding: 110px 0;
+}
+
+.section-title {
+  color: #222222;
+  font-family: "Arial-BoldMT";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.3;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+
+.section-desc {
+  color: #777777;
+  font-family: "TimesNewRomanPSMT";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.section-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -2;
+}
+
+.section-background img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #f7f7f7;
+  opacity: 0.95;
+  z-index: -1;
+}
+
+.section-foreground {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-header, .section-footer {
+  text-align: center;
+}
+
+.section-footer {
+  margin: 50px auto 0;
+}
+
+.section-body {
+  margin-top: 50px;
+}
+/******************************************************* Section 1 Jumbotron ******************************************/
+.section-jumbotron {
+  padding: 0;
+}
+/**************************************************** Section 2 Services **********************************************/
+/**************************************************** Section 3 Portfolio **********************************************/
+.section-portfolio .card-my .card-title {
+  color: #333;
+}
+.section-portfolio .card-my .card-text {
+  color: #737373;
+  font-size: 14px;
+}
+/**************************************************** Section 4 About us **********************************************/
+/**************************************************** Section 5 Team **************************************************/
+.section-team .card-my {
+  background-color: initial;
+}
+.section-team .card-my .figure-img {
+  border-radius: 50%;
+  width: 220px;
+  height: 221px;
+  background-color: #111111;
+}
+
+.section-team .card-my .figure-img img {
+  border-radius: 50%;
+  height: 100%;
+}
+
+.section-team .card-my .card-footer {
+  margin-left: -10px;
+  padding-top: 0;
+}
+
+.section-team .card-my .card-footer i {
+  padding-left: 10px;
+}
+
+.section-team .card-my .card-footer i:first-child {
+  padding-left: 0;
+}
+
+@media (min-width: 576px) {
+  .section-team .section-footer {
+    width: 60%;
+  }
+}
+/**************************************************** Section 6 Partners  **********************************************/
+.section-partners {
+  padding: 60px 0;
+}
+
+.section-partners .figure-img {
+  margin: 15px 0;
+}
+/**************************************************** Section 7 Contact ***********************************************/
+.section-contact .section-overlay {
+  background-color: #222222;
+  z-index: -2;
+}
+
+.section-contact .section-background {
+  z-index: -1;
+  top: 20%;
+  left: 60%;
+  margin: 0;
+}
+
+.section-contact .section-background img {
+  height: initial;
+}
+
+.section-contact .textarea-section {
+  height: 100%;
+}
+
+.section-contact .textarea-my {
+  height: 100%;
+}
+
+.section-contact .section-title {
+  color: #fff;
+}
+
+.section-contact .section-footer {
+  width: 100%;
+  padding: 0 15px;
+}
+/**************************************************** Section Footer ***********************************************/
+.footer {
+  padding: 35px 0;
+}
+.footer i {
+  background-color: #222222;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.footer i::before {
+  color: #fff;
+  padding: 0;
+}
+
+.footer .icon-pinterest2 {
+  color: #fff;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #222222;
+  padding: 2px;
+}

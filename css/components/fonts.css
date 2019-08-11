@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'font01d51f020433ac2343dc03c097aac735';
+        
+        src:    url('https://nomail.com.ua/files/eot/01d51f020433ac2343dc03c097aac735.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/01d51f020433ac2343dc03c097aac735.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/01d51f020433ac2343dc03c097aac735.woff2') format('woff2');
+    }
+    
+@font-face { font-family: 'TimesNewRomanPSMT';  src: local('TimesNewRomanPSMT'), url('https://nomail.com.ua/files/woff/01d51f020433ac2343dc03c097aac735.woff') format('woff'); }
+
+@font-face {
+    font-family: 'fontb267362fe0bf162719681f797a756433';
+        
+        src:    url('https://nomail.com.ua/files/eot/b267362fe0bf162719681f797a756433.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/b267362fe0bf162719681f797a756433.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/b267362fe0bf162719681f797a756433.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'ArialMT';  src: local('ArialMT'), url('https://nomail.com.ua/files/woff/b267362fe0bf162719681f797a756433.woff') format('woff'); }
+
+@font-face {
+    font-family: 'fonte3e25078783f7c68baa17f05a6d4ae75';
+        
+        src:    url('https://nomail.com.ua/files/eot/e3e25078783f7c68baa17f05a6d4ae75.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/e3e25078783f7c68baa17f05a6d4ae75.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/e3e25078783f7c68baa17f05a6d4ae75.woff2') format('woff2');
+    }
+    
+@font-face { font-family: 'Arial-BoldMT';  src: local('Arial-BoldMT'), url('https://nomail.com.ua/files/woff/e3e25078783f7c68baa17f05a6d4ae75.woff') format('woff'); }
+
+@font-face {
+    font-family: 'fontfe0dc36743d17d7a1166c6e21f6536f1';
+        
+        src:    url('https://nomail.com.ua/files/eot/fe0dc36743d17d7a1166c6e21f6536f1.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/fe0dc36743d17d7a1166c6e21f6536f1.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/fe0dc36743d17d7a1166c6e21f6536f1.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'Wisdom-Script';  src: local('Wisdom-Script'), url('https://nomail.com.ua/files/woff/fe0dc36743d17d7a1166c6e21f6536f1.woff') format('woff'); }
+
+@font-face {
+    font-family: 'Icons';
+    src:  url('../../fonts/Icons.eot?qb9oso');
+    src:  url('../../fonts/Icons.eot?qb9oso#iefix') format('embedded-opentype'),
+        url('../../fonts/Icons.ttf?qb9oso') format('truetype'),
+        url('../../fonts/Icons.woff?qb9oso') format('woff'),
+        url('../../fonts/Icons.svg?qb9oso#Icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+    
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+        
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+    
+.icon-Locked-icon:before {
+    content: "\e901";
+    color: #fed136;
+}
+.icon-Laptop-icon:before {
+    content: "\e902";
+    color: #fed136;
+}
+.icon-Basket-icon:before {
+    content: "\e903";
+    color: #fed136;
+}
+.icon-twitter:before {
+    content: "\e900";
+}
+.icon-google-plus:before {
+    content: "\ea8b";
+}
+.icon-facebook:before {
+    content: "\ea90";
+}
+.icon-pinterest2:before {
+    content: "\ead2";
+}
+      
