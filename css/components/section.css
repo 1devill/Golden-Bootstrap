@@ -83,14 +83,14 @@
 .section-team .card-my {
   background-color: initial;
 }
-.section-team .card-my .figure-img {
+.section-team .card-my .card-img-top {
   border-radius: 50%;
   width: 220px;
   height: 221px;
   background-color: #111111;
 }
 
-.section-team .card-my .figure-img img {
+.section-team .card-my .card-img-top img {
   border-radius: 50%;
   height: 100%;
 }
@@ -106,6 +106,11 @@
 
 .section-team .card-my .card-footer i:first-child {
   padding-left: 0;
+}
+
+.section-team .card-my a:hover {
+  text-decoration: none;
+  color: initial;
 }
 
 @media (min-width: 576px) {
@@ -175,4 +180,9 @@
   border-radius: 50%;
   background-color: #222222;
   padding: 2px;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: initial;
 }

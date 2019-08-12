@@ -39,6 +39,11 @@ a:hover, .link:hover, a:focus, link:focus {
   color: #fed136;
 }
 
+a:hover i {
+  opacity: 0.6;
+  color: initial;
+}
+
 img {
   width: 100%;
   object-fit: cover;
