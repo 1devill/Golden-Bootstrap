@@ -136,12 +136,6 @@
   padding: 0 130px;
 }
 
-@media (min-width: 768px) {
-  .section-about-us .figure-img {
-    position: initial;
-    transform: translate(0);
-  }
-}
 /**************************************************** Section 5 Team **************************************************/
 .section-team .card-my {
   background-color: initial;
