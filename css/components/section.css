@@ -79,6 +79,69 @@
   font-size: 14px;
 }
 /**************************************************** Section 4 About us **********************************************/
+.section-about-us {
+  padding-bottom: 165px;
+}
+
+.section-about-us .section-body {
+  position: relative;
+}
+
+.section-about-us .section-body::before {
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-left: 4px solid #f1f1f1;
+}
+
+.section-about-us .section-body-title {
+  color: #222222;
+  font-family: "Arial-BoldMT";
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.45px;
+  letter-spacing: -0.45px;
+}
+
+.section-about-us .figure-img {
+  height: 170px;
+  width: 170px;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  border: 7px solid #f1f1f1;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-about-us .figure-img img {
+  border-radius: 50%;
+  height: 100%;
+}
+
+.section-about-us .row {
+  margin: 0 -130px 100px;
+}
+
+.section-about-us .row:nth-child(odd) {
+  text-align: right;
+}
+
+.section-about-us .row > .col-my {
+  padding: 0 130px;
+}
+
+@media (min-width: 768px) {
+  .section-about-us .figure-img {
+    position: initial;
+    transform: translate(0);
+  }
+}
 /**************************************************** Section 5 Team **************************************************/
 .section-team .card-my {
   background-color: initial;
